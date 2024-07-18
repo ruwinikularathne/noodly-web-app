@@ -62,7 +62,7 @@ body {
     max-width: 50%;
     padding: 2rem;
     z-index: 2;
-    margin-left: 80px;
+    margin-left: 100px;
   }
   
   .home-content h1 {
@@ -129,3 +129,80 @@ body {
     z-index: 1;
   }
   
+
+  /* About Us page styles */
+.about-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4rem 2rem;
+  position: relative;
+  overflow: hidden;
+  background-color: white;
+}
+
+.about-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 40%;
+  height: 100%;
+  background: url('../images/about-background.png') no-repeat left center;
+  background-size: cover;
+  z-index: 1;
+}
+
+.about-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  z-index: 2;
+}
+
+.about-image {
+  flex: 1;
+  max-width: 40%;
+}
+
+.about-image img {
+  width: 100%;
+  height: auto;
+}
+
+.about-content {
+  flex: 1;
+  max-width: 50%;
+  padding: 2rem;
+  margin-left: 2rem;
+}
+
+.about-content h2 {
+  font-size: 2.5rem;
+  color: rgb(87, 84, 80);
+  margin-bottom: 1rem;
+}
+
+.about-content p {
+  font-size: 1.25rem;
+  margin-bottom: 1.5rem;
+}
+
+.about-buttons {
+  display: flex;
+  gap: 1rem;
+}
+
+.about-btn {
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  background-color: darkorange;
+  color: white;
+  border-radius: 25px;
+  border: none;
+  cursor: pointer;
+}
+
+.about-btn:hover {
+  background-color: orangered;
+}
