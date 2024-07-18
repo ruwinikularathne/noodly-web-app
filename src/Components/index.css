@@ -285,3 +285,70 @@ body {
 .order-btn:hover {
   background-color: orangered;
 }
+
+
+
+/* Testimonials page styles */
+.testimonials-section {
+  padding: 4rem 2rem;
+  background-color: white;
+  text-align: center;
+}
+
+.testimonials-section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  color: rgb(87, 84, 80);
+}
+
+.testimonials-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  justify-items: center;
+}
+
+.testimonial-card {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 2rem;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.testimonial-card:hover {
+  transform: translateY(-10px);
+}
+
+.testimonial-image {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
+
+.testimonial-stars {
+  font-size: 1.25rem;
+  color: darkorange;
+  margin-bottom: 1rem;
+}
+
+.testimonial-comment {
+  font-size: 1rem;
+  margin: 1rem 0;
+}
+
+.testimonial-name {
+  font-size: 1rem;
+  color: rgb(87, 84, 80);
+  margin-top: 1rem;
+}
