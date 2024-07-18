@@ -6,7 +6,7 @@ import Menu from './Components/Menu';
 import Testimonials from './Components/Testimonials';
 import Contact from './Components/Contact';
 import Footer from './Components/Footer';
-import './index.css';
+import './Components/index.css';
 
 const App = () => {
   return (
@@ -23,3 +23,7 @@ const App = () => {
 };
 
 export default App;
+
+
+
+

@@ -1,11 +1,24 @@
 import React from 'react';
+import './index.css';
+import foodImage from '../images/noodles1.png';
 
 const Home = () => {
   return (
-    <section id="home">
-      <h2>Welcome to Noodly</h2>
-      <p>Your favorite noodle takeaway shop!</p>
-    </section>
+    <div className="banner-background">
+      <div className="home-container">
+        <div className="home-content">
+          <h1>Welcome to Noodly</h1>
+          <p>Your favorite yummy noodles takeaway restaurant!</p>
+          <p>Order quick, Eat fresh</p>
+          <button className="order-now-btn" onClick={() => window.location.href = '#menu'}>
+            Order Now
+          </button>
+        </div>
+        <div className="home-image">
+          <img src={foodImage} alt="Delicious noodles" />
+        </div>
+      </div>
+    </div>
   );
 };
 

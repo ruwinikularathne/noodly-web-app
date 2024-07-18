@@ -1,16 +1,23 @@
 import React from 'react';
+import './index.css'; // Adjusted path for CSS
 
 const Navbar = () => {
+  const navbarLinks = [
+    { id: 1, label: 'Home', href: '#home' },
+    { id: 2, label: 'About', href: '#about' },
+    { id: 3, label: 'Menu', href: '#menu' },
+    { id: 4, label: 'Testimonials', href: '#testimonials' },
+    { id: 5, label: 'Contact', href: '#contact' },
+  ];
+
   return (
-    <nav>
-      <h1>Noodly</h1>
-      <ul>
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#menu">Menu</a></li>
-        <li><a href="#testimonials">Testimonials</a></li>
-        <li><a href="#contact">Contact Us</a></li>
-      </ul>
+    <nav className="navbar">
+      <div className="navbar-logo">Noodly</div>
+      <div className="navbar-links">
+        {navbarLinks.map(link => (
+          <a key={link.id} href={link.href}>{link.label}</a>
+        ))}
+      </div>
     </nav>
   );
 };
