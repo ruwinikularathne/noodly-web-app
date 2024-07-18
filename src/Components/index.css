@@ -81,7 +81,7 @@ body {
   .order-now-btn {
     padding: 0.75rem 1.5rem;
     font-size: 1rem;
-    width: 200px; /* Set a fixed width for the button */
+    width: 200px; 
     margin-top: 50px;
     background-color: darkorange;
     color: white;
@@ -115,6 +115,7 @@ body {
   /* Banner background */
   .banner-background {
     position: relative;
+    height: 100vh;
   }
   
   .banner-background::before {
@@ -122,8 +123,8 @@ body {
     position: absolute;
     top: 0;
     right: 0;
-    width: 50%;
-    height: 150%;
+    width: 80%;
+    height: 100%;
     background: url('../images/home-banner-background.png') no-repeat right center;
     background-size: contain;
     z-index: 1;
@@ -139,6 +140,7 @@ body {
   position: relative;
   overflow: hidden;
   background-color: white;
+  height: 100vh;
 }
 
 .about-background {
@@ -204,5 +206,82 @@ body {
 }
 
 .about-btn:hover {
+  background-color: orangered;
+}
+
+
+
+/* Menu page styles */
+.menu-section {
+  padding: 4rem 2rem;
+  background-color: white;
+  text-align: center;
+}
+
+.menu-section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  color: rgb(87, 84, 80);
+}
+
+.menu-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Adjusted for wider cards */
+  gap: 1.5rem; /* Increased gap between cards */
+  justify-items: center;
+  margin: 0 2rem; /* Added margin to the sides */
+}
+
+.menu-card {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 1rem;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+  width: 100%; /* Ensure cards are full width of the column */
+  max-width: 230px; /* Set max-width for cards */
+  height: auto; /* Adjust height */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu-card:hover {
+  transform: translateY(-10px);
+}
+
+.menu-image {
+  width: 80%; /* Reduced image size */
+  height: auto;
+  border-radius: 10px;
+}
+
+.menu-card h3 {
+  font-size: 1.25rem; /* Reduced font size */
+  margin: 1rem 0;
+  color: rgb(87, 84, 80);
+}
+
+.menu-card p {
+  font-size: 1rem;
+  margin: 0.5rem 0;
+}
+
+.order-btn {
+  padding: 0.5rem 1rem; /* Reduced padding */
+  font-size: 1rem;
+  background-color: darkorange;
+  color: white;
+  border-radius: 25px;
+  border: none;
+  cursor: pointer;
+  margin-top: 1rem;
+  width: 100px; /* Set a fixed width for the button */
+}
+
+.order-btn:hover {
   background-color: orangered;
 }

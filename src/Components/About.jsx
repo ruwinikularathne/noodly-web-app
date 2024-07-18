@@ -1,6 +1,5 @@
 import React from 'react';
 import './index.css';
-import aboutBackground from '../images/about-background.png';
 import noodlesImage from '../images/noodles2.png';
 
 const About = () => {
