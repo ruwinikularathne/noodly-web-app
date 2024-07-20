@@ -9,6 +9,7 @@ const Home = () => {
         <div className="home-content">
           <h1>Welcome to Noodly</h1>
           <p>Your favorite yummy noodles takeaway restaurant!</p>
+          <p>Experience the joy of Delight in Every Bite!</p>
           <p>Order quick, Eat fresh</p>
           <button className="order-now-btn" onClick={() => window.location.href = '#menu'}>
             Order Now
