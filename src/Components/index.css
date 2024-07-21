@@ -105,7 +105,7 @@ body {
   }
   
   .home-image img {
-    max-width: 150%; /* Increase the size of the food image */
+    max-width: 150%; 
     height: auto;
   }
   
@@ -223,10 +223,10 @@ body {
 
 .menu-container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Adjusted for wider cards */
-  gap: 1.5rem; /* Increased gap between cards */
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); 
+  gap: 1.5rem; 
   justify-items: center;
-  margin: 0 2rem; /* Added margin to the sides */
+  margin: 0 2rem; 
 }
 
 .menu-card {
@@ -237,9 +237,9 @@ body {
   text-align: center;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s;
-  width: 100%; /* Ensure cards are full width of the column */
-  max-width: 230px; /* Set max-width for cards */
-  height: auto; /* Adjust height */
+  width: 100%; 
+  max-width: 230px; 
+  height: auto; 
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -251,13 +251,13 @@ body {
 }
 
 .menu-image {
-  width: 80%; /* Reduced image size */
+  width: 80%; 
   height: auto;
   border-radius: 10px;
 }
 
 .menu-card h3 {
-  font-size: 1.25rem; /* Reduced font size */
+  font-size: 1.25rem; 
   margin: 1rem 0;
   color: rgb(87, 84, 80);
 }
@@ -268,7 +268,7 @@ body {
 }
 
 .order-btn {
-  padding: 0.5rem 1rem; /* Reduced padding */
+  padding: 0.5rem 1rem; 
   font-size: 1rem;
   background-color: darkorange;
   color: white;
@@ -276,7 +276,7 @@ body {
   border: none;
   cursor: pointer;
   margin-top: 1rem;
-  width: 100px; /* Set a fixed width for the button */
+  width: 100px; 
 }
 
 .order-btn:hover {
@@ -433,15 +433,15 @@ body {
   align-items: flex-start;
   max-width: 1200px;
   margin: 0 auto;
-  flex-wrap: nowrap; /* Ensure single row */
+  flex-wrap: nowrap; 
 }
 
 .footer-column {
   flex: 1;
   min-width: 150px;
   margin: 1rem;
-  text-align: left; /* Align text to the left */
-  cursor: pointer; /* Set cursor to pointer */
+  text-align: left; 
+  cursor: pointer; 
 }
 
 .footer-column h3 {
@@ -454,8 +454,8 @@ body {
 }
 
 .footer-right {
-  width: 250px; /* Adjust width of the map */
-  height: 250px; /* Adjust height of the map */
+  width: 250px; 
+  height: 250px; 
   margin-left: auto;
 }
 
