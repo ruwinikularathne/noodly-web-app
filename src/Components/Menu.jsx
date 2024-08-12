@@ -6,7 +6,7 @@ const Menu = () => {
   const menuItems = [
     { id: 1, name: 'Spicy Sichuan Noodles', priceRegular: '300 LKR', priceLarge: '500 LKR' },
     { id: 2, name: 'Chicken Chow Mein', priceRegular: '320 LKR', priceLarge: '520 LKR' },
-    { id: 3, name: 'Beef Lo Mein', priceRegular: '350 LKR', priceLarge: '550 LKR' },
+    { id: 3, name: 'Egg Noodles', priceRegular: '350 LKR', priceLarge: '550 LKR' },
     { id: 4, name: 'Vegetable Hakka Noodles', priceRegular: '300 LKR', priceLarge: '500 LKR' },
     { id: 5, name: 'Shrimp Pad Thai', priceRegular: '320 LKR', priceLarge: '520 LKR' },
     { id: 6, name: 'Garlic Noodles', priceRegular: '350 LKR', priceLarge: '550 LKR' },
@@ -17,8 +17,8 @@ const Menu = () => {
     { id: 11, name: 'Dan Dan Noodles', priceRegular: '320 LKR', priceLarge: '520 LKR' },
     { id: 12, name: 'Japanese Udon', priceRegular: '350 LKR', priceLarge: '550 LKR' },
     { id: 13, name: 'Korean Japchae', priceRegular: '300 LKR', priceLarge: '500 LKR' },
-    { id: 14, name: 'Malaysian Laksa', priceRegular: '320 LKR', priceLarge: '520 LKR' },
-    { id: 15, name: 'Vietnamese Pho', priceRegular: '350 LKR', priceLarge: '550 LKR' },
+    { id: 14, name: 'Korean Ramen Noodles', priceRegular: '320 LKR', priceLarge: '520 LKR' },
+    { id: 15, name: 'Cheese Chicken Noodles', priceRegular: '350 LKR', priceLarge: '550 LKR' },
   ];
 
   return (
