@@ -1,6 +1,6 @@
 import React from 'react';
 import './index.css';
-import foodImage from '../images/noodles1.png';
+import foodImage from '../images/noodles4.png';
 
 const Home = () => {
   return (
