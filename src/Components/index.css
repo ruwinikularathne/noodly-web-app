@@ -194,18 +194,20 @@ body {
 
 .about-content h2 {
   font-size: 2.5rem;
-  color: rgb(87, 84, 80);
+  color: darkorange;
   margin-bottom: 1rem;
 }
 
 .about-content p {
   font-size: 1.25rem;
   margin-bottom: 1.5rem;
+  margin-top: 2rem;
 }
 
 .about-buttons {
   display: flex;
   gap: 1rem;
+  padding: 2rem 0;
 }
 
 .about-btn {
@@ -311,7 +313,7 @@ body {
 .testimonials-section h2 {
   font-size: 2.5rem;
   margin-bottom: 2rem;
-  color: rgb(87, 84, 80);
+  color: darkorange;
 }
 
 .testimonials-container {
