@@ -411,6 +411,7 @@ body {
   border: 1px solid #ccc;
   border-radius: 5px;
   font-size: 1rem;
+  resize: none;
 }
 
 .button-container {
